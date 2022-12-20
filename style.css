@@ -1,0 +1,134 @@
+header {
+    background: linear-gradient(90deg,#FFFFFF 33%,#1e9993 65%);
+    padding: 20px 0;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    height: 240px;
+    margin: 0 auto;
+}
+
+header .imagem-logo {
+    position: absolute;
+    top: 30px;
+    left: -120px;
+    width: 35%;
+}
+nav {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px 0 20px 15px;
+    }
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    color: #232323;
+}
+
+nav a:hover {
+    color: #545454;
+    text-decoration: underline;
+}
+
+.apresentacao {
+    width: 940px;
+    position: static;
+    padding: 20px 40px;
+    font-weight: bold;
+    margin: 20px 60px 20px 150px;
+}
+
+.apresentacao h2 {
+    font-size: 26px;
+    margin: 20px 40px;
+    text-align: center;
+}
+
+.apresentacao p {
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 20px 40px;
+}
+
+footer {
+    background: url("bg.jpg");
+    padding: 40px 0;
+    text-align: center;
+}
+
+.imagem-logo-footer {
+    width: 15%;
+}
+
+.copyright {
+    color: #000;
+    margin: 20px 0 0;
+    font-size: 13px;
+}
+
+form {
+    margin: 40px 80px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 22px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: #FFFFFF;
+    transition: 1seg all;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    transform: scale(1.2);
+    background: darkorange;
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+
+}
